@@ -1,8 +1,70 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 body {
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
-ß
+h1 {
+    /* width: 50%; */
+    font-size: 2rem;
+    text-align: center;
+    margin: 5px 0 10px 0;
+    padding: 5px;
+    background-color: rgb(43, 173, 199);
+    border: 1px solid black;
+}
+
+/* body {
+    padding: 10px;
+    outline: 5px solid lightblue;
+} */
+
+.divContainer {
+    padding: 10px;
+    /* outline: 5px solid lightblue; */
+}
+
+.block {
+    padding: 1rem;
+    /* width: 30vw;
+    height: 30vw; */
+    width: 30vw;
+    aspect-ratio: 1 / 1;
+    /* Ensures the element remains square */
+    color: white;
+    border: 2px solid red;
+    background-color: black;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
+    /* clears the float space so that the second paragraph does not wrap */
+}
+
+
+section {
+    padding: 1rem;
+    /* overflow: auto; */
+    display: flow-root;
+    /* better way to do the clear */
+    background-color: bisque;
+    border: 1px solid #333;
+}
