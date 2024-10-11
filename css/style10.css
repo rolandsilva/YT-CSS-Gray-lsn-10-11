@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+/* main {
+    background-color: aqua;
+    width: 50%;
+    outline: 1px solid red;
+} */
+
+p {
+    margin: 5px 0 5px 0;
+    /* background-color: lightgrey; */
+}
+
+/* .opposite {
+    display: inline-block; */
+/* rarley use completely removes it from the document and also messes up assisted readers */
+/* margin-top: 100px;
+    height: 200px;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 4rem;
+} */
+
+ul {
+    list-style-type: none;
+    /* padding-left: 0px; */
+    padding: 0.5rem;
+    text-align: right;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    /* display: none; */
+    /* lines up horizontal vs vertical  */
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    color: white;
+    text-decoration: underline;
+}
