@@ -11,14 +11,25 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* main {
+h1 {
+    /* width: 50%; */
+    font-size: 2rem;
+    text-align: center;
+    margin: 5px 0 10px 0;
+    padding: 5px;
+    background-color: rgb(43, 173, 199);
+    border: 1px solid black;
+}
+
+main {
+    margin: 0 5px 0 5px;
     background-color: aqua;
-    width: 50%;
     outline: 1px solid red;
-} */
+}
 
 p {
     margin: 5px 0 5px 0;
+    padding: 0 10px 0 10px;
     /* background-color: lightgrey; */
 }
 
